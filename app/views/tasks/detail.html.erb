@@ -1,0 +1,7 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.detail %></p>
+<p><%= @task.completed ? "Done" : "To do" %>
+</p>
+<br>
+<br>
+<p><%= link_to "Back to tasks", tasks_path %></p>
